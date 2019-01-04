@@ -12,7 +12,7 @@ describe "Not having any errors and being all green" do
     it 'raises a SyntaxError for nonsensical code' do
       expect{
         require './lib/a_syntax_error.rb'
-      } .to_not_raise_error
+      } l;
     end
   end
 
